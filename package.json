@@ -4,13 +4,14 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "fastiStart": "fastify start -w -l info -P app.js"
+        "serve": "fastify start -w -l info -P app.js"
     },
     "author": "",
     "license": "ISC",
     "description": "",
     "dependencies": {
         "@fastify/autoload": "4.0.0",
+        "@fastify/mysql": "^3.0.0",
         "faker": "^5.5.3",
         "fastify": "^3.29.0",
         "fastify-autoload": "^3.13.0",
