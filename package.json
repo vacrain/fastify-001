@@ -4,7 +4,6 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "start": "node app.js",
         "fastiStart": "fastify start -w -l info -P app.js"
     },
     "author": "",
